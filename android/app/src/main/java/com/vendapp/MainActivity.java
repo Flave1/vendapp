@@ -1,5 +1,5 @@
-package com.vendapp;
 import android.os.Bundle;
+package com.vendapp;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
@@ -13,8 +13,9 @@ public class MainActivity extends ReactActivity {
     return "vendapp";
   }
 
-  @Override
-protected void onCreate(Bundle savedInstanceState) {
-  super.onCreate(null);
-}
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(null);
+    }
 }
